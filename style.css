@@ -273,19 +273,19 @@ header nav ul.action{
         display: none;
     }
     p.parrafo1{
-        font-size: 23px;
+        font-size: 25px;
     }
     p.parrafo1 span{
-        font-size: 23px;
+        font-size: 25px;
     }
     p.parrafo2{
-        font-size: 15px;
+        font-size: 20px;
     }   
     .fisico_texto p {
-        font-size: 20px;
+        font-size: 25px;
     } 
     .fisico_texto p span{
-        font-size: 20px;
+        font-size: 25px;
     } 
     div.libros_fisicos{
     height: 430px;
