@@ -273,19 +273,19 @@ header nav ul.action{
         display: none;
     }
     p.parrafo1{
-        font-size: 22px;
+        font-size: 23px;
     }
     p.parrafo1 span{
-        font-size: 22px;
+        font-size: 23px;
     }
     p.parrafo2{
         font-size: 15px;
     }   
     .fisico_texto p {
-        font-size: 22px;
+        font-size: 23px;
     } 
     .fisico_texto p span{
-        font-size: 22px;
+        font-size: 23px;
     } 
     div.libros_fisicos{
     height: 430px;
@@ -521,7 +521,10 @@ header nav ul.action{
     margin-top: 20px;
     margin-bottom: 120px;
 }
-
+.contenido_seccion a{
+    text-decoration: none;
+    color: var(--color-secundario);
+}
 .div_areas h3{
     padding-bottom: 12px;
     font-size: 20px;
@@ -774,6 +777,90 @@ footer{
         width: 45px;
         height: 45px;
     }
+}
+
+/* Areas individuales sub paginas*/
+
+.sub_areas{
+    width: 100vw;
+    height: calc(100vh - 60px);
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.titulosub_areas {
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+}
+.titulosub_areas h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.titulosub_areas h2 a{
+    color: var(--color-secundario);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 12px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.titulosub_areas h2 a:hover{
+    color: var(--color-primario);
+}
+.titulosub_areas p span{
+    color: var(--color-secundario);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding-top: 10px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.titulosub_areas p{
+    color: var(--color-secundario);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-top: 5px;
+}
+.containersub_areas {
+    width: 100vw;
+    height: calc(100vh - 160px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.imgsub_areas {
+    width: 500px;
+    height: calc(100vh - 160px);
+} 
+.imgsub_areas img{
+    width: 400px;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+.listasub_areas {
+    width: 600px;
+    padding-top: 15px;
+}
+.listasub_areas p{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: 000000;
+    padding-bottom: 4px;
+}
+.listasub_areas li{
+    list-style: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 4px;
+}
+.listasub_areas li a{
+    text-decoration: none;
+    color: var(--color-secundario);
+
 }
 
 
