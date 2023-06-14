@@ -779,6 +779,11 @@ footer{
     }
 }
 
+.div_areas a:hover {
+    color: var(--color-primario)
+    background-color: #9b9997;    
+    
+}
 /* Areas individuales sub paginas*/
 
 .sub_areas{
