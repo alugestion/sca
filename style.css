@@ -273,19 +273,19 @@ header nav ul.action{
         display: none;
     }
     p.parrafo1{
-        font-size: 23px;
+        font-size: 21px;
     }
     p.parrafo1 span{
-        font-size: 23px;
+        font-size: 21px;
     }
     p.parrafo2{
         font-size: 15px;
     }   
     .fisico_texto p {
-        font-size: 23px;
+        font-size: 21px;
     } 
     .fisico_texto p span{
-        font-size: 23px;
+        font-size: 21px;
     } 
     div.libros_fisicos{
     height: 430px;
@@ -315,6 +315,35 @@ header nav ul.action{
     }
     table{
         padding: 35px 0;
+    }
+
+    /*Sub Areas Movil*/
+    
+    div.sub_areas{
+        height: auto;
+    }
+    div.titulosub_areas{
+        height: auto;
+    }
+    div.titulosub_areas h2{
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    div.imgsub_areas{
+        width: 100vw;        
+    }
+    div.imgsub_areas img{
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+    div.containersub_areas{
+        flex-direction: row;
+        height: auto;
+    }
+    div.listasub_areas{
+        padding: 20px;
+
     }
 }
 
@@ -630,9 +659,12 @@ header nav ul.action{
     text-align: center;
     color: rgb(255, 255, 255);
     padding: 15px;
-    font-weight: normal;
+    font-weight: bolder;
     font-size: 25px;
     width: 100vh;
+}
+.footer_div h3 span{
+    font-weight: lighter;
 }
 
 .footer_info{
@@ -779,10 +811,10 @@ footer{
     }
 }
 
-div.div_areas a:hover {
+.div_areas a:hover {
     color: var(--color-primario);
-    background-color: #9b9997;    
-    
+    background-color: #9b9997;
+    z-index: 30;
 }
 /* Areas individuales sub paginas*/
 
@@ -835,6 +867,7 @@ div.div_areas a:hover {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    flex-grow: 1;
 }
 .imgsub_areas {
     width: 500px;
