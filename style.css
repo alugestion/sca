@@ -330,7 +330,8 @@ header nav ul.action{
         margin-bottom: 15px;
     }
     div.imgsub_areas{
-        width: 100vw;        
+        width: 100vw;  
+        height: auto;
     }
     div.imgsub_areas img{
         width: 100%;
