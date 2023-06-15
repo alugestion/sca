@@ -333,6 +333,11 @@ header nav ul.action{
     table{
         padding: 35px 0;
     }
+    h2#videosgeneral.titulosubareas{       
+        height: auto;
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
 
     /*Sub Areas Movil*/
     
@@ -365,15 +370,6 @@ header nav ul.action{
         padding: 20px;
 
     }
-    div.div_subareas2{
-    width: 100vw;
-    height: auto;
-    margin: 20px;
-}
-div.video{
-    width: 100%;
-    height: auto;
-}
 }
 
     
@@ -476,6 +472,7 @@ div.video{
     right: 50%;
     width: 50px;
     height: 50px;
+    transform: translateX(-25px);
 }
 .bajar h4{
     width: 50px;
@@ -489,6 +486,34 @@ div.video{
     padding: 5px;
     font-size: 40px;
     text-align: center;
+}
+
+/*Bajar Areas*/
+
+.bajar_areas{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    right: 50%;
+    width: 50px;
+    height: 50px;
+    transform: translateX(-25px) translateY(-30px);
+}
+.bajar_areas h4{
+    width: 50px;
+    height: 50px;
+    
+    opacity: 50%;
+}
+
+.bajar_areas h4 i {
+    color: #ffffff; 
+    padding: 5px;
+    font-size: 40px;
+    text-align: center;
+}
+.bajar_areas h4 a{
+    text-decoration: none;
 }
 
 /*-----------------------------------------------------------------------------------------------segundo div*/
@@ -675,7 +700,7 @@ div.video{
 /*-----------------------------------------------------------------------------------------------footer*/
 
 .footer_div{
-    padding-top: 60px;
+    padding-top: 0px;
     width: 100vw;
     height: calc(100vh - 60px);
     background-color: rgb(151, 149, 149);
@@ -939,7 +964,6 @@ div.sub_areas{
     color: var(--color-primario);
     font-weight: bolder
 }
-
 /* Sub Area 2 Videos*/
 
 div.sub_areas2{
@@ -950,30 +974,55 @@ div.sub_areas2{
     flex-wrap: wrap;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: space-evenly;
+    border-top: 1px solid rgba(0,0,0,0.15);;
+    background-color: #000000;
 }
 div.div_subareas2{
-    width: 250px;
+    width: 230px;
     height: auto;
-    margin: 20px;
+    margin: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
 }
 div.video{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 160px;  
+    margin-top: 15px;     
 }
 div.div_subareas2 h2{
-    margin-bottom: 5px;
-    color: var(--color-secundario);
+    margin-bottom: 0px;
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    width: 200px;
+    height: 60px;
+    background-color:rgba(255, 255, 255, 0.5);
+    padding: 3px;
+    text-align: center;
+    
 }
 div.div_subareas2 p{
     margin-top: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
     color: var(--color-secundario);
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    height: 70px;
+    height: 120px;
 }
+h2.titulosubareas{
+    width: 100vw;
+    height: 60px;
+    padding: 60px;
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
 
-
-
+}
 
 
