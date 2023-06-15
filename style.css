@@ -105,7 +105,7 @@ header nav ul.action{
 /*--------------------------------------------------------------------------------------------Enlaces redes*/
 .iconos_redes{
     width: 50px;
-    height: 200px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -273,7 +273,8 @@ header nav ul.action{
         display: none;
     }
     p.parrafo1{
-        font-size: 21px;
+        padding: 10px;
+        font-size: 20px;
     }
     p.parrafo1 span{
         font-size: 21px;
@@ -288,7 +289,11 @@ header nav ul.action{
         font-size: 21px;
     } 
     div.libros_fisicos{
-    height: 430px;
+    height: auto;
+    }
+    div.fisico_texto{
+        height: auto;
+        padding: 20px;
     }
     .fisico_oculto .oculto{
         margin-top: 60px;
@@ -307,10 +312,22 @@ header nav ul.action{
         height: auto;
     }
 
+    div.container{
+        height: auto;
+    }
     div#contacto.footer_div h3{
         width: 100vw;
     }
     div#contacto.footer_div{
+        height: auto;
+    }
+    div.div_areas{
+        width: 100vw;
+        padding: 30px;
+        height: auto;
+    }
+    div.div_areas img{
+        width: 100%;
         height: auto;
     }
     table{
@@ -320,7 +337,8 @@ header nav ul.action{
     /*Sub Areas Movil*/
     
     div.sub_areas{
-        height: auto;
+        width: 100vw;
+        height: 1200px;
     }
     div.titulosub_areas{
         height: auto;
@@ -330,8 +348,8 @@ header nav ul.action{
         margin-bottom: 15px;
     }
     div.imgsub_areas{
-        width: 100vw;  
-        height: auto;
+        width: 100vw;   
+        height: auto;     
     }
     div.imgsub_areas img{
         width: 100%;
@@ -339,8 +357,9 @@ header nav ul.action{
         padding: 20px;
     }
     div.containersub_areas{
-        flex-direction: row;
         height: auto;
+        flex-direction: row;
+        
     }
     div.listasub_areas{
         padding: 20px;
@@ -348,10 +367,7 @@ header nav ul.action{
     }
 }
 
-    /*----------------------------------------Footer*/
-    footer{
-        height: 100%;
-    }
+    
 
 @media (max-width: 1100px) {
     nav ul li{
@@ -398,25 +414,26 @@ header nav ul.action{
     font-size: 33px;  
     color: #dbdada;
     text-align: center;
-    text-decoration: underline;
     align-items:baseline;
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 .parrafo1 span{
-    font-weight: bold; 
+    font-weight: lighter; 
     color: rgb(255, 255, 255);
     font-size: 33px;
 }
 .parrafo2 {
     font-size: 25px;
     font-weight: lighter;
-    color: #dbdada;
+    color: var(--color-secundario);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+.parrafo2 span{
+    color: #dbdada;
+}
 .primero_texto{
     width: 100vw;
     height: 100vh;
@@ -445,7 +462,7 @@ header nav ul.action{
 /*-----------------------------------------------------------Flecha Bajar*/
 .bajar{
     position: absolute;
-    bottom: -10px;
+    bottom: 10px;
     left: 50%;
     right: 50%;
     width: 50px;
@@ -474,7 +491,8 @@ header nav ul.action{
     height: 100vh;
     background-image: url(/Logo\ nosotros.jpg);
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size:cover;
+    background-position:center;  
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -549,7 +567,7 @@ header nav ul.action{
     height: 500px;
     justify-content: space-evenly;
     margin-top: 20px;
-    margin-bottom: 120px;
+    
 }
 .contenido_seccion a{
     text-decoration: none;
@@ -558,17 +576,19 @@ header nav ul.action{
 .div_areas h3{
     padding-bottom: 12px;
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 .contenido_seccion img{
-    width: 220px;
-    height: 220px;
+    width: 255px;
+    height: auto;
     justify-content: space-evenly;  
 }
 .div_areas p{
     padding-top: 3px;
     font-size: 17px;
     padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .div_areas p span{
     font-weight: bold;
@@ -695,14 +715,18 @@ header nav ul.action{
     line-height: 180%;
     font-size: 20px;
     list-style: none;
+    color: #ffffff;
 }
 .footer_info li a{
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
+.footer_info li a:hover {
+    color:var(--color-secundario)
+}
 .redes_li{
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;   
 }
 .redes_li div{
     width: 300px;
@@ -719,7 +743,7 @@ header nav ul.action{
     padding-bottom: 25px;
 }
 footer{
-    padding-top: 60px;
+    padding-top: 00px;
     width: 100vw;
     height: calc(100vh - 60px);
 }
@@ -812,21 +836,23 @@ footer{
     }
 }
 
-.div_areas a:hover {
-    color: var(--color-primario);
-    background-color: #9b9997;
-    z-index: 30;
+div.div_areas a:hover {
+    color: var(--color-primario)
 }
+div.div_areas img:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
 /* Areas individuales sub paginas*/
 
-.sub_areas{
+div.sub_areas{
     width: 100vw;
-    height: calc(100vh - 60px);
+    height: auto;
     padding-top: 60px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
+}  
 .titulosub_areas {
     width: 100vw;
     height: 100px;
@@ -899,7 +925,11 @@ footer{
 .listasub_areas li a{
     text-decoration: none;
     color: var(--color-secundario);
-
 }
+.listasub_areas li a:hover {
+    color: var(--color-primario);
+    font-weight: bolder
+}
+
 
 
