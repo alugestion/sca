@@ -370,6 +370,9 @@ header nav ul.action{
         padding: 20px;
 
     }
+    .bajar_areas h4 i{
+        color: #ffffff;
+    }
 }
 
     
@@ -507,7 +510,7 @@ header nav ul.action{
 }
 
 .bajar_areas h4 i {
-    color: #ffffff; 
+    color:var(--color-secundario); 
     padding: 5px;
     font-size: 40px;
     text-align: center;
