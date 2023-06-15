@@ -365,6 +365,15 @@ header nav ul.action{
         padding: 20px;
 
     }
+    div.div_subareas2{
+    width: 100vw;
+    height: auto;
+    margin: 20px;
+}
+div.video{
+    width: 100%;
+    height: auto;
+}
 }
 
     
