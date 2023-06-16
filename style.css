@@ -370,7 +370,7 @@ header nav ul.action{
         padding: 20px;
 
     }
-    .bajar_areas h4 i{
+    i.icon.icon-circle-down{
         color: #ffffff;
     }
 }
