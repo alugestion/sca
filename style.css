@@ -343,7 +343,6 @@ header nav ul.action{
     
     div.sub_areas{
         width: 100vw;
-        height: 1200px;
     }
     div.titulosub_areas{
         height: auto;
@@ -368,12 +367,34 @@ header nav ul.action{
     }
     div.listasub_areas{
         padding: 20px;
-
     }
-    i.icon.icon-circle-down{
-        color: var(--color-secundario);
-        z-index: 50;
-        transform: traslatey(-40px);
+    div.sub_areas2 div.div_subareas2{
+        width: 350px; 
+        height: auto;       
+    }
+    div.div_subareas2 div.video{
+        width: 300px;
+        height: 200px;
+    }
+    div.sub_areas2 div.div_subareas2 h2{
+        font-size:25px;
+        width: 300px;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    div.sub_areas2 div.div_subareas2 p{
+        font-size: 25px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    iframe{
+        width: 300px;
+        height: 200px;
+    }
+
+    i.icon.icon-circle-down {
+        color: #ffffff;
     }
 }
 
@@ -481,8 +502,7 @@ header nav ul.action{
 }
 .bajar h4{
     width: 50px;
-    height: 50px;
-    
+    height: 50px;    
     opacity: 50%;
 }
 
@@ -496,8 +516,8 @@ header nav ul.action{
 /*Bajar Areas*/
 
 .bajar_areas{
-    position: absolute;
-    bottom: 10px;
+    position: relative;
+    bottom: 50px;
     left: 50%;
     right: 50%;
     width: 50px;
@@ -506,8 +526,7 @@ header nav ul.action{
 }
 .bajar_areas h4{
     width: 50px;
-    height: 50px;
-    
+    height: 50px;    
     opacity: 50%;
 }
 
@@ -516,7 +535,6 @@ header nav ul.action{
     padding: 5px;
     font-size: 40px;
     text-align: center;
-    z-index: 50;
 }
 .bajar_areas h4 a{
     text-decoration: none;
