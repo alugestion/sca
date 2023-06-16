@@ -333,10 +333,32 @@ header nav ul.action{
     table{
         padding: 35px 0;
     }
+    h2#videosventas.titulosubareas{       
+        height: auto;
+        padding-top: 60px;
+        padding-bottom: 10px;
+        color: #e4ad48;
+    }
+
     h2#videosgeneral.titulosubareas{       
         height: auto;
         padding-top: 60px;
         padding-bottom: 10px;
+        color: #ffffff;
+    }
+
+    h2#videosadministracion.titulosubareas{       
+        height: auto;
+        padding-top: 60px;
+        padding-bottom: 10px;
+        color: #48e477;
+    }
+
+    h2#videosproduccion.titulosubareas{       
+        height: auto;
+        padding-top: 60px;
+        padding-bottom: 10px;
+        color: #4858e4;
     }
 
     /*Sub Areas Movil*/
@@ -368,6 +390,8 @@ header nav ul.action{
     div.listasub_areas{
         padding: 20px;
     }
+
+
     div.sub_areas2 div.div_subareas2{
         width: 350px; 
         height: auto;       
@@ -388,6 +412,8 @@ header nav ul.action{
         height: 200px;
         margin-bottom: 20px;
     }
+
+
     iframe{
         width: 300px;
         height: 200px;
@@ -396,6 +422,7 @@ header nav ul.action{
     i.icon.icon-circle-down {
         color: #ffffff;
     }
+
 }
 
     
@@ -531,7 +558,7 @@ header nav ul.action{
 }
 
 .bajar_areas h4 i {
-    color:var(--color-secundario); 
+    color:transparent; 
     padding: 5px;
     font-size: 40px;
     text-align: center;
@@ -741,9 +768,11 @@ header nav ul.action{
     font-weight: bolder;
     font-size: 25px;
     width: 100vh;
+    padding-top: 60px;
 }
 .footer_div h3 span{
     font-weight: lighter;
+    
 }
 
 .footer_info{
@@ -1046,7 +1075,34 @@ h2.titulosubareas{
     text-align: center;
     color: #ffffff;
     font-size: 30px;
-
 }
 
 
+
+h2#videosventas.titulosubareas{       
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    color: #e4ad48;
+}
+
+h2#videosgeneral.titulosubareas{       
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+
+h2#videosadministracion.titulosubareas{       
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    color: #48e477;
+}
+
+h2#videosproduccion.titulosubareas{       
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    color: #4858e4;
+}
