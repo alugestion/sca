@@ -373,6 +373,7 @@ header nav ul.action{
     i.icon.icon-circle-down{
         color: #ffffff;
         z-index: 50;
+        transform: traslatey(-40px);
     }
 }
 
