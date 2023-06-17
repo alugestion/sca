@@ -420,7 +420,26 @@ header nav ul.action{
     }
 
     i.icon.icon-circle-down {
-        color: #ffffff;
+        color: #181818;  
+        text-align: center;      
+    }
+
+    div.bajar_areas{
+        width: 100vw;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    div.bajar_areas{
+        animation: vik 1.5s alternate infinite;
+    }
+    @keyframes vik{        
+            0%{
+                transform: translateY(0);
+            }
+            100%{
+                transform: translateY(15px);
+            }
     }
 
 }
@@ -544,13 +563,15 @@ header nav ul.action{
 
 .bajar_areas{
     position: relative;
-    bottom: 50px;
-    left: 50%;
-    right: 50%;
+    bottom: 80px;
+    /*left: 50%;
+    right: 50%;*/
     width: 50px;
     height: 50px;
-    transform: translateX(-25px) translateY(-30px);
+    /*transform: translateX(-25px) translateY(-30px);*/
+    
 }
+
 .bajar_areas h4{
     width: 50px;
     height: 50px;    
