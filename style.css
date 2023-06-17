@@ -997,10 +997,10 @@ div.sub_areas{
     width: 50px;
     height: 50px;
 }
-.titulosub_areas h2 :hover{
+div.titulosub_areas h2 :hover{
     background-color: #000000;
 }
-.titulosub_areas h2 :hover i{
+div.titulosub_areas h2 :hover i{
     color: #ffffff;
 }
 .titulosub_areas p span{
