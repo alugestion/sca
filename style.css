@@ -370,8 +370,12 @@ header nav ul.action{
         height: auto;
     }
     div.titulosub_areas h2{
-        flex-direction: column;
-        margin-bottom: 15px;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    div.titulosub_areas h2 a{
+        width: 50px;
+        height: 50px;
     }
     div.imgsub_areas{
         width: 100vw;   
@@ -384,13 +388,11 @@ header nav ul.action{
     }
     div.containersub_areas{
         height: auto;
-        flex-direction: row;
-        
+        flex-direction: row;        
     }
     div.listasub_areas{
         padding: 20px;
     }
-
 
     div.sub_areas2 div.div_subareas2{
         width: 350px; 
@@ -983,7 +985,7 @@ div.sub_areas{
 .titulosub_areas h2{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .titulosub_areas h2 a{
@@ -991,7 +993,9 @@ div.sub_areas{
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 12px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
 }
 .titulosub_areas h2 a:hover{
     color: var(--color-primario);
@@ -1113,31 +1117,16 @@ h2.titulosubareas{
 }
 
 
-
-h2#videosventas.titulosubareas{       
-    height: auto;
-    padding-top: 60px;
-    padding-bottom: 10px;
-    color: #e4ad48;
+.icon.icon-stats-dots{
+    color: #00000062;
 }
-
-h2#videosgeneral.titulosubareas{       
-    height: auto;
-    padding-top: 60px;
-    padding-bottom: 10px;
-    color: #ffffff;
+.icon.icon-calculator{
+    color: #2296456c;
 }
-
-h2#videosadministracion.titulosubareas{       
-    height: auto;
-    padding-top: 60px;
-    padding-bottom: 10px;
-    color: #48e477;
+.icon.icon-coin-dollar{
+    color: #e9571e7e;
 }
-
-h2#videosproduccion.titulosubareas{       
-    height: auto;
-    padding-top: 60px;
-    padding-bottom: 10px;
-    color: #4858e4;
+.icon.icon-cogs{
+    color: #0a21f575;
 }
+                    
