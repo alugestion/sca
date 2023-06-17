@@ -428,6 +428,7 @@ header nav ul.action{
         width: 100vw;
         display: flex;
         justify-content: space-evenly;
+        margin-left: 0;
     }
 
     div.bajar_areas{
