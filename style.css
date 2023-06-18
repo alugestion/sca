@@ -449,8 +449,8 @@ header nav ul.action{
                 transform: translateY(15px);
             }
     }
-    footer{
-        height: 100vh;
+    div#contacto.footer_div{
+        height: 100Vh;
     }
 
 }
