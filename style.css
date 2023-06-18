@@ -263,8 +263,12 @@ header nav ul.action{
     #libros.container_segundo {
         height: auto;
     }
+    div#nosotros.container_segundo h3{
+        height: auto;
+    }
     .libros_fisicos{
         justify-content: space-evenly;
+        flex-grow: 1;
     }
     .libros_digitales{
         justify-content: space-evenly;
@@ -273,7 +277,8 @@ header nav ul.action{
         display: none;
     }
     p.parrafo1{
-        padding: 10px;
+        width: 100vw;
+        padding: 20px;
         font-size: 20px;
     }
     p.parrafo1 span{
@@ -283,10 +288,10 @@ header nav ul.action{
         font-size: 15px;
     }   
     .fisico_texto p {
-        font-size: 21px;
+        font-size: 30px;
     } 
     .fisico_texto p span{
-        font-size: 21px;
+        font-size: 31px;
     } 
     div.libros_fisicos{
     height: auto;
@@ -444,6 +449,9 @@ header nav ul.action{
                 transform: translateY(15px);
             }
     }
+    footer{
+        height: 100vh;
+    }
 
 }
 
@@ -491,6 +499,7 @@ header nav ul.action{
 }
 
 .parrafo1 { 
+    width: 600px;
     font-size: 33px;  
     color: #dbdada;
     text-align: center;
@@ -641,15 +650,15 @@ header nav ul.action{
 }
 
 .fisico_texto{
-    width: 100%;
+    width: 800px;
     height: 280px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
     color: var(--color-primario);
 }
 .fisico_texto span{
-    font-size: 28px;
+    font-size: 35px;
     font-weight: bold;
     color: #000000;
 }
@@ -1131,5 +1140,32 @@ h2.titulosubareas{
 }
 .icon.icon-cogs{
     color: #0a21f575;
+}
+h2#videosventas.titulosubareas{       
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    color: #e4ad48;
+}
+
+h2#videosgeneral.titulosubareas{       
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+
+h2#videosadministracion.titulosubareas{       
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    color: #48e477;
+}
+
+h2#videosproduccion.titulosubareas{       
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    color: #4858e4;
 }
                     
