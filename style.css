@@ -398,6 +398,9 @@ header nav ul.action{
     div.listasub_areas{
         padding: 20px;
     }
+    div.listasub_areas li{
+        line-height: 150%;
+    }
 
     div.sub_areas2 div.div_subareas2{
         width: 350px; 
